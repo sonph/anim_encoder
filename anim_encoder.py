@@ -1,3 +1,4 @@
+#!/usr/local/bin/python2
 #!/usr/bin/env python
 # Copyright (c) 2012, Sublime HQ Pty Ltd
 # All rights reserved.
@@ -25,14 +26,23 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import scipy.ndimage.measurements as me
+print("import scipy.ndimage.measurements as me")
 import json
+print("import json")
 import scipy.misc as misc
+print("import scipy.misc as misc")
 import re
+print("import re")
 import sys
+print("import sys")
 import os
+print("import os")
 import cv2
+print("import cv2")
 from numpy import *
+print("from numpy import *")
 from time import time
+print("from time import time")
 
 # How long to wait before the animation restarts
 END_FRAME_PAUSE = 4000
