@@ -1,3 +1,4 @@
+#!/usr/local/bin/python2
 #!/usr/bin/env python
 # Benjamin James Wright <bwright@cse.unsw.edu.au>
 # This is a simple capture program that will capture a section of
@@ -5,6 +6,8 @@
 # with their corresponding timestamps. (Borrowed from stackoverflow).
 # This will continue to capture for the seconds specified by argv[1]
 
+import pygtk
+pygtk.require('2.0')
 import gtk.gdk
 import time
 import sys
